@@ -9,11 +9,16 @@ let number = Math.floor(Math.random() * 100); // Sciviamo un numero casuale
 console.log(number);
 
 let even = 2;
-
+/*
 if (number % even === 0) {
     console.log(number);
 } else {
     number = Math.floor(Math.random() * 100);
 }
-
+*/
 //Il secondo numero in console è pari, altrimenti vedo solo un numero
+
+while (number % even === 0) {
+    console.log(number);
+    break;
+}
