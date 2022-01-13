@@ -18,3 +18,8 @@ if (number % even === 0) {
 
 //Il secondo numero in console è pari, altrimenti vedo solo un numero
 
+while (number % even) {
+    number += 1;
+}
+
+console.log(number);
